@@ -1,0 +1,15 @@
+(library
+ (name graamlLib)
+ (libraries js_of_ocaml))
+
+(include_subdirs unqualified)
+
+; (rule
+;  (deps
+;   (source_tree ../bin))
+;  (targets a)
+;  (action
+;   (no-infer
+;    (progn
+;     (run js_of_ocaml ../bin/main.bc)
+;     (run touch a)))))

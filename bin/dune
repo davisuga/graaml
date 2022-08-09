@@ -1,0 +1,15 @@
+(executable
+ (public_name graaml)
+ (name main)
+ (modes byte)
+ (libraries graamlLib))
+
+; (rule
+;  (deps
+;   (source_tree bin))
+;  (targets main.js)
+;  (action
+;   (no-infer
+;    (progn
+
+;     (run js_of_ocaml main.bc)))))

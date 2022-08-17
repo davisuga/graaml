@@ -1,1 +1,1 @@
-let () = GraamlLib.Bindings.Polyglot.jPI () |> ignore
+let () = GraamlLib.Bindings.Java.Lang.Math.random () |> print_float
